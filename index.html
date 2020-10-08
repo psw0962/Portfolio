@@ -107,7 +107,7 @@
 
     <!-- Skills -->
     <section id="skills" class="section">
-        <div class="section__container">
+        <div class="section_container">
             <h1>Skills</h1>
             <div class="skillset">
                 <div class="skillset__left">
@@ -152,85 +152,87 @@
 
     <!-- Work -->
     <section id="work" class="section">
-        <h1>My work</h1>
-        <h3>Projects</h3>
-        <div class="work__categories">
-            <button class="category__btn active">All</button>
-            <button class="category__btn">Pokemon Book(React)</button>
-            <button class="category__btn">Todolist(React)</button>
-            <button class="category__btn">Portfolio(Javascript, HTML, CSS)</button>
+        <div class="section_container">
+            <h1>My work</h1>
+            <h3>Projects</h3>
+            <div class="work__categories">
+                <button class="category__btn active">All</button>
+                <button class="category__btn">Pokemon Book(React)</button>
+                <button class="category__btn">Todolist(React)</button>
+                <button class="category__btn">Portfolio(Javascript, HTML, CSS)</button>
+            </div>
+
+            <div class="work__projects">
+                <a href="https://psw0962.github.io/pokemon_react/" class="project" target="blank">
+                    <img class="project__img" src="imgs/pokemon.png" alt="pokemon">
+                    <div class="project__description">
+                        <h3>Pokemon Book</h3>
+                    </div>
+                </a>
+
+                <a href="" class="project" target="blank">
+                    <img class="project__img" src="imgs/Todolist.png" alt="Todolist">
+                    <div class="project__description">
+                        <h3>Todolist</h3>
+                    </div>
+                </a>
+
+                <a href="" class="project" target="blank">
+                    <img class="project__img" src="imgs/Portfolio.png" alt="Portfolio">
+                    <div class="project__description">
+                        <h3>Portfolio Web Application</h3>
+                    </div>
+                </a>
+            </div>
         </div>
-
-        <div class="work__projects">
-            <a href="https://psw0962.github.io/pokemon_react/" class="project" target="blank">
-                <img class="project__img" src="imgs/pokemon.png" alt="pokemon">
-                <div class="project__description">
-                    <h3>Pokemon Book</h3>
-                </div>
-            </a>
-
-            <a href="" class="project" target="blank">
-                <img class="project__img" src="imgs/Todolist.png" alt="Todolist">
-                <div class="project__description">
-                    <h3>Todolist</h3>
-                </div>
-            </a>
-
-
-            <a href="" class="project" target="blank">
-                <img class="project__img" src="imgs/Portfolio.png" alt="Portfolio">
-                <div class="project__description">
-                    <h3>Portfolio Web Application</h3>
-                </div>
-            </a>
-
-        </div>
-
     </section>
 
     <!-- Code Review -->
     <section id="reviews" class="section">
-        <h1>Code Review</h1>
-        <div class="reviews">
-            <div class="review">
-                <i class="fab fa-react review-icon"></i>
-                <div class="review__speech-bubble">
-                    <h3>Pokemon Book with React</h3>
-                    <p>포켓몬도감 프로젝트를 진행 하면서 React의 기본적인 개발방식에 대해 습득했고, 이를 바탕으로 기능적 요구사항을 구현할 수 있게 되었습니다.<br /><br /> # 사용한 기술 및 기능
-                        <p>ReactJs, class component, css, fetch API, ant design, 클라이언트단 검색기능 구현, 단순한 페이지네이션 구현, github(버전관리), 배포 - github page</p>
-                    </p>
-                    <br />
-                    <p class="name"><a href="https://github.com/psw0962/pokemon_react/tree/master/src" target="_blank">▶
-                            코드보기</a></p>
+        <div class="section_container">
+            <h1>Code Review</h1>
+            <div class="reviews">
+                <div class="review">
+                    <i class="fab fa-react review-icon"></i>
+                    <div class="review__speech-bubble">
+                        <h3>Pokemon Book with React</h3>
+                        <p>포켓몬도감 프로젝트를 진행 하면서 React의 기본적인 개발방식에 대해 습득했고, 이를 바탕으로 기능적 요구사항을 구현할 수 있게 되었습니다.<br /><br /> # 사용한 기술 및 기능
+                            <p>ReactJs, class component, css, fetch API, ant design, 클라이언트단 검색기능 구현, 단순한 페이지네이션 구현, github(버전관리), 배포 - github page</p>
+                        </p>
+                        <br />
+                        <p class="name"><a href="https://github.com/psw0962/pokemon_react/tree/master/src" target="_blank">▶
+                                코드보기</a></p>
+                    </div>
+                </div>
+
+                <div class="review">
+                    <i class="fab fa-react review-icon"></i>
+                    <div class="review__speech-bubble">
+                        <h3>Todolist with React</h3>
+                        <p>투두리스트 프로젝트를 진행 하면서 React의 글로벌 상태관리 방식에 대해 습득했고, 이를 바탕으로 체계적인 상태관리 기법을 활용할 수 있게 되었습니다.
+                            <br /><br /> # 사용한 기술 및 기능
+                            <p>ReactJs, functional component, Hooks, styled components, Context API, 클라이언트단 추가, 삭제, 토글 기능 구현
+                            </p>
+                        </p>
+                        <br />
+                        <p class="name"><a href="https://github.com/psw0962/TodoList_react/tree/master/mashup/src" target="_blank">▶
+                                코드보기</a></p>
+                    </div>
+                </div>
+
+                <div class="review">
+                    <i class="fab fa-js-square review-icon"></i>
+                    <div class="review__speech-bubble">
+                        <h3>Portfolio Web Application</h3>
+                        <p>반응형 웹 페이지 포트폴리오 프로젝트를 진행하면서 붙여넣기는 단 한줄도 하지 않았으며, 웹 페이지 기획부터 마크업, 애니매이션효과, 자바스크립트를<br /> 활용한 효과까지 약 6개월간 배운 기술들을 토대로 하나하나 구현 했습니다. 각 section별로 버전관리를 하며 프로젝트를 진행했고, 그 과정에서 버전관리의 중요성
+                            <br /> 을 알게 되었고 협업시 깃허브 활용을 간접적으로 체험할 수 있었습니다.<br /><br /># 사용한 기술 및 기능
+                            <p>Vanilla Javascript, HTML5, CSS</p>
+                        </p>
+                        <br />
+                        <p class="name"><a href="https://github.com/psw0962/Portfolio" target="_blank">▶ 코드보기</a></p>
+                    </div>
                 </div>
             </div>
-
-            <div class="review">
-                <i class="fab fa-react review-icon"></i>
-                <div class="review__speech-bubble">
-                    <h3>Todolist with React</h3>
-                    <p>투두리스트 프로젝트를 진행 하면서 React의 글로벌 상태관리 방식에 대해 습득했고, 이를 바탕으로 체계적인 상태관리 기법을 활용할 수 있게 되었습니다.<br /><br /> # 사용한 기술 및 기능
-                        <p>ReactJs, functional component, Hooks, styled components, Context API, 클라이언트단 추가, 삭제, 토글 기능 구현</p>
-                    </p>
-                    <br />
-                    <p class="name"><a href="https://github.com/psw0962/TodoList_react/tree/master/mashup/src" target="_blank">▶
-                            코드보기</a></p>
-                </div>
-            </div>
-
-            <div class="review">
-                <i class="fab fa-js-square review-icon"></i>
-                <div class="review__speech-bubble">
-                    <h3>Portfolio Web Application</h3>
-                    <p>반응형 웹 페이지 포트폴리오 프로젝트를 진행하면서 붙여넣기는 단 한줄도 하지 않았으며, 웹 페이지 기획부터 마크업, 애니매이션효과, 자바스크립트를<br /> 활용한 효과까지 약 6개월간 배운 기술들을 토대로 하나하나 구현 했습니다. 각 section별로 버전관리를 하며 프로젝트를 진행했고, 그 과정에서 버전관리의 중요성
-                        <br /> 을 알게 되었고 협업시 깃허브 활용을 간접적으로 체험할 수 있었습니다.<br /><br /># 사용한 기술 및 기능
-                        <p>Vanilla Javascript, HTML5, CSS</p>
-                    </p>
-                    <br />
-                    <p class="name"><a href="https://github.com/psw0962/Portfolio" target="_blank">▶ 코드보기</a></p>
-                </div>
-            </div>
-
         </div>
     </section>
 
