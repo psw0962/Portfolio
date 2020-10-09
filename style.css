@@ -131,16 +131,13 @@ p {
     margin: 0 4px;
     color: var(--color-black);
     cursor: pointer;
-}
-
-.navbar__menu__item.active {
-    border: 1px solid var(--color-black);
+    border: 1px solid transparent;
     border-radius: var(--size-border-radius);
 }
 
 .navbar__menu__item:hover {
+    border-color: var(--color-black);
     background-color: var(--color-grey);
-    border-radius: var(--size-border-radius);
 }
 
 .navbar__toggle-btn {
@@ -322,7 +319,7 @@ p {
     margin: 40px;
 }
 
-.category__btn.active,
+.category__btn.selected,
 .category__btn:hover {
     background-color: var(--color-grey);
     color: var(--color-white);
