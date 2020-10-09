@@ -130,6 +130,7 @@ p {
     padding: 8px 12px;
     margin: 0 4px;
     color: var(--color-black);
+    background-color: var(--color-white);
     cursor: pointer;
     border: 1px solid transparent;
     border-radius: var(--size-border-radius);
@@ -179,6 +180,10 @@ p {
     padding: 8px 12px;
     border: 2px solid var(--color-white);
     border-radius: var(--size-border-radius);
+}
+
+.home__contact:hover {
+    background-color: var(--color-light-grey);
 }
 
 
@@ -497,8 +502,19 @@ p {
 /* For below 768px screen width */
 
 @media screen and (max-width: 768px) {
+     :root {
+        /* Font size */
+        --font-large: 30px;
+        --font-medium: 18px;
+        --font-regular: 16px;
+        --font-small: 14px;
+        --font-micro: 12px;
+    }
     .navbar__toggle-btn {
         display: block;
+        top: 16px;
+        right: 16px;
+        font-size: var(--font-medium);
     }
     #navbar {
         flex-direction: column;
@@ -517,20 +533,45 @@ p {
     .navbar__menu.open {
         display: block;
     }
+    .section {
+        padding: 16px;
+        padding-top: 45px;
+    }
     .about__majors {
         flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 0px;
     }
     .major {
-        margin-bottom: 38px;
+        margin-bottom: 30px;
     }
     .skill {
         flex-direction: column;
     }
+    .category__btn {
+        padding: 8px;
+    }
     .project {
         flex-grow: 1;
     }
+    .review {
+        flex-direction: column;
+        align-items: center;
+    }
     .review-icon {
-        width: 80px;
-        height: 80px;
+        width: 120px;
+        height: 120px;
+        margin-bottom: 20px;
+    }
+    .review__speech-bubble {
+        order: 1;
+    }
+    .arrow-up {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        line-height: 50px;
+        right: 16px;
+        bottom: 16px;
     }
 }
