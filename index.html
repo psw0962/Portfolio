@@ -163,28 +163,28 @@
             <h1>My work</h1>
             <h3>Projects</h3>
             <div class="work__categories">
-                <button class="category__btn active">All</button>
-                <button class="category__btn">Pokemon Book(React)</button>
-                <button class="category__btn">Todolist(React)</button>
-                <button class="category__btn">Portfolio(Javascript, HTML, CSS)</button>
+                <button class="category__btn active" data-filter="*">All</button>
+                <button class="category__btn" data-filter="pokemon">Pokemon Book(React)</button>
+                <button class="category__btn" data-filter="todolist">Todolist(React)</button>
+                <button class="category__btn" data-filter="portfolio">Portfolio(Javascript, HTML, CSS)</button>
             </div>
 
             <div class="work__projects">
-                <a href="https://psw0962.github.io/pokemon_react/" class="project" target="blank">
+                <a href="https://psw0962.github.io/pokemon_react/" class="project" target="blank" data-type="pokemon">
                     <img class="project__img" src="imgs/pokemon.png" alt="pokemon">
                     <div class="project__description">
                         <h3>Pokemon Book</h3>
                     </div>
                 </a>
 
-                <a href="" class="project" target="blank">
+                <a href="" class="project" target="blank" data-type="todolist">
                     <img class="project__img" src="imgs/Todolist.png" alt="Todolist">
                     <div class="project__description">
                         <h3>Todolist</h3>
                     </div>
                 </a>
 
-                <a href="" class="project" target="blank">
+                <a href="" class="project" target="blank" data-type="portfolio">
                     <img class="project__img" src="imgs/Portfolio.png" alt="Portfolio">
                     <div class="project__description">
                         <h3>Portfolio Web Application</h3>
