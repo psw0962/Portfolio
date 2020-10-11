@@ -112,6 +112,11 @@ p {
     z-index: 1;
 }
 
+.navbar__nick-word {
+    width: 150px;
+    height: 170px;
+}
+
 #navbar.navbar--dark {
     background-color: var(--color-light-white);
     padding: 8px;
@@ -520,6 +525,10 @@ p {
         align-items: flex-start;
         background-color: var(--color-light-white);
     }
+    .navbar__nick-word {
+        width: 100px;
+        height: 120px;
+    }
     #navbar.navbar--dark {
         padding: 16px;
     }
@@ -528,13 +537,14 @@ p {
         text-align: center;
         width: 100%;
         display: none;
+        background-color: var(--color-light-white);
     }
     .navbar__menu.open {
         display: block;
     }
     .section {
         padding: 16px;
-        padding-top: 45px;
+        padding-top: 55px;
     }
     .about__majors {
         flex-direction: column;
@@ -557,6 +567,10 @@ p {
         flex-direction: column;
         align-items: center;
     }
+    .reviews {
+        margin: auto;
+        margin-right: 25px;
+    }
     .review-icon {
         width: 120px;
         height: 120px;
@@ -564,6 +578,10 @@ p {
     }
     .review__speech-bubble {
         order: 1;
+    }
+    .review-h1 {
+        margin: auto;
+        height: 0;
     }
     .arrow-up {
         width: 50px;
