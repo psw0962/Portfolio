@@ -112,11 +112,6 @@ p {
     z-index: 1;
 }
 
-.navbar__nick-word {
-    width: 150px;
-    height: 170px;
-}
-
 #navbar.navbar--dark {
     background-color: var(--color-light-white);
     padding: 8px;
@@ -529,8 +524,8 @@ p {
         background-color: var(--color-light-white);
     }
     .navbar__nick-word {
-        width: 100px;
-        height: 120px;
+        width: 130px;
+        height: 30px;
     }
     #navbar.navbar--dark {
         padding: 16px;
