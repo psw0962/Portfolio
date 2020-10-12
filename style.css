@@ -213,6 +213,12 @@ p {
     margin: 80px 0;
 }
 
+.major__front-end,
+.major__library,
+.major__etc {
+    width: 250px;
+}
+
 .major__icon {
     width: 170px;
     height: 170px;
@@ -249,26 +255,23 @@ p {
 }
 
 .job__description {
-    margin: 0 16px;
-    text-align: left;
+    margin: auto;
 }
 
-.job__name,
 .job__period {
+    /* width: 500px; */
     color: var(--color-light-grey);
-}
-
-.job__name {
-    font-size: var(--font-small);
-}
-
-.job__period {
     font-size: var(--font-micro);
 }
 
 .job__logo__tutoring {
-    margin: auto;
-    width: 9%;
+    padding-left: 10px;
+}
+
+.job__name {
+    color: var(--color-black);
+    font-weight: var(--weight-semi-bold);
+    font-size: 20px;
 }
 
 
@@ -548,11 +551,25 @@ p {
     }
     .about__majors {
         flex-direction: column;
+        align-items: center;
         margin-top: 30px;
         margin-bottom: 0px;
     }
     .major {
         margin-bottom: 30px;
+    }
+    .job__logo__tutoring {
+        padding-right: 39px;
+    }
+    .job__name {
+        font-size: var(--font-regular);
+    }
+    .job__logo__sparta,
+    .job__logo__tutoring {
+        width: 50px;
+    }
+    .job__description {
+        width: 250px;
     }
     .skill {
         flex-direction: column;
