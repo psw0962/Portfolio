@@ -23,9 +23,8 @@
 
         <ul class="navbar__menu">
             <li class="navbar__menu__item active" data-link="#home">Home</li>
-            <li class="navbar__menu__item" data-link="#about">About</li>
-            <li class="navbar__menu__item" data-link="#skills">Skills</li>
-            <li class="navbar__menu__item" data-link="#work">My work</li>
+            <li class="navbar__menu__item" data-link="#about">Skills</li>
+            <li class="navbar__menu__item" data-link="#work">Projects</li>
             <li class="navbar__menu__item" data-link="#reviews">Project Review</li>
             <li class="navbar__menu__item" data-link="#contact">Contact</li>
         </ul>
@@ -41,15 +40,14 @@
         <div class="home__container">
             <img src="imgs/psw01.png" alt="Nick's profile photo" class="home__avatar" />
             <h1 class="home__title">Hello, <br />I'm Nick!</h1>
-            <h2 class="home__description">매일매일 성장하는 개발자 박상우 입니다!</h2>
+            <h2 class="home__description">보다 좋은 사용자 경험과 세상에 가치있는 서비스를 만들기 위해 끊임없이 연구하는 프론트엔드 개발자 박상우 입니다.</h2>
             <button class="home__contact" data-link="#contact">Contact me</button>
         </div>
     </section>
 
-    <!-- About -->
+    <!-- Skills -->
     <section id="about" class="section section_container">
-        <h1>About me</h1>
-        <p>더 나은 사용자 인터페이스와 더 나은 성능개선에 대해 끊임없이 연구하여 가치있는 서비스를 만들기 위해 노력하고 있는 프론트엔드 개발자 입니다! 새로운 것을 배우는 것에 흥미를 느끼고 풀스택 개발자가 되기 위해 매일 성장해 나가고 있습니다. <br />P.S) 사람들과 소통하는 것을 굉장히 좋아합니다 :)</p>
+        <h1>Skills</h1>
         <div class="about__majors">
 
             <div class="major major__front-end">
@@ -57,10 +55,10 @@
                     <i class="fab fa-js-square"></i>
                 </div>
                 <h2 class="major__tittle">
-                    Front-end
+                    Programming Language
                 </h2>
                 <p class="major_description">
-                    Javascript, HTML, CSS, jquery, Web APIs
+                    Javascript, HTML, CSS, Python
                 </p>
             </div>
 
@@ -69,10 +67,10 @@
                     <i class="fab fa-react"></i>
                 </div>
                 <h2 class="major__tittle">
-                    Library
+                    Library & Framework
                 </h2>
                 <p class="major_description">
-                    ReactJs(Hooks, styled components, Context API, <br />functional component, class component)
+                    ReactJs, styled components, Redux, Mobx, Django,<br /> Django Rest Framework
                 </p>
             </div>
 
@@ -84,82 +82,18 @@
                     Etc
                 </h2>
                 <p class="major_description">
-                    Github, AWS(EC2), slack
+                    Github, AWS(EC2, S3, RDS, Route53), zeplin, trello
                 </p>
             </div>
 
         </div>
-        <div class="about__jobs">
-            <div class="job">
-                <!-- <i class="fas fa-user-graduate job__logo"></i> -->
-                <img src="imgs/sparta.png" alt="sparta" class="job__logo__sparta" />
-                <div class="job__description">
-                    <h3 class="job__name">Sparta Coding Club(2020.05 ~ 2020.07)</h3>
-                    <p class="job__period">통신기업 회계관련 업무를 약 3년간 진행하면서 해당업무 특성상 엑셀 활용이 많았고 함수 사용에 흥미를 느끼고 이와 관련하여 깊이있게 공부하여 활용할 수 있는 것을 찾아보다가 코딩에 흥미를 갖게 되었습니다. 이후 스파르타 코딩클럽을 알게 되었고 약 8주간 진행하면서 서버 와 클라이언트의 개념을 알게 되었고, 기본적으로 웹이 어떤 원리로 만들어지고 배포되어지는 과정까지 알 수 있었습니다.</p>
-                </div>
-            </div>
-            <div class="job">
-                <i class="fas fa-book-open job__logo__tutoring"></i>
-                <div class="job__description">
-                    <h3 class="job__name">1:1 Tutoring(2020.07 ~ 현재)</h3>
-                    <p class="job__period">스파르타 코딩클럽 수료이후 코딩에 대한 흥미를 느끼고 1:1 튜터링을 받는게 효율적이라는 판단을하여 진행하였습니다. 서버를 구현하는 것도 재미있었지만 UI/UX를 구현하는 것이 더 관심이 생겼고, Front-end 포지션에 대해 깊이있게 수업을 진행했습니다. 처음에는 단순히 보여지는것을 구현하는 것이 전부인줄 알았지만 배울수록 성능개선과 언어에 대해 깊은 이해가 필요하다고 생각하여 해당 포지션에 필요한 지식들을
-                        갖추려 노력했습니다.
-                    </p>
-                </div>
-            </div>
-        </div>
+
     </section>
 
-    <!-- Skills -->
-    <section id="skills" class="section">
-        <div class="section_container">
-            <h1>Skills</h1>
-            <div class="skillset">
-                <div class="skillset__left">
-                    <h3 class="skillset__tittle">Skills</h3>
-                    <div class="skill">
-                        <div class="skill__description">
-                            <span>HTML</span>
-                            <div class="skill__bar">
-                                <div class="skill__value" style="width: 90%;"></div>
-                            </div>
-                            <span>90%</span>
-                        </div>
-
-                        <div class="skill__description">
-                            <span>CSS</span>
-                            <div class="skill__bar">
-                                <div class="skill__value" style="width: 80%;"></div>
-                            </div>
-                            <span>80%</span>
-                        </div>
-
-                        <div class="skill__description">
-                            <span>Javascript</span>
-                            <div class="skill__bar">
-                                <div class="skill__value" style="width: 70%;"></div>
-                            </div>
-                            <span>70%</span>
-                        </div>
-
-                        <div class="skill__description">
-                            <span>React</span>
-                            <div class="skill__bar">
-                                <div class="skill__value" style="width: 60%;"></div>
-                            </div>
-                            <span>60%</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Work -->
+    <!-- Projects -->
     <section id="work" class="section">
         <div class="section_container">
-            <h1>My work</h1>
-            <h3>Projects</h3>
+            <h1>Projects</h1>
             <div class="work__categories">
                 <button class="category__btn selected" data-filter="*">All</button>
                 <button class="category__btn" data-filter="pokemon">Pokemon Book(React)</button>
@@ -202,7 +136,7 @@
                     <div class="review__speech-bubble">
                         <h3>Pokemon Book with React</h3>
                         <p>포켓몬도감 프로젝트를 진행 하면서 React의 기본적인 개발방식에 대해 습득했고, 이를 바탕으로 기능적 요구사항을 구현할 수 있게 되었습니다.<br /><br /> # 사용한 기술 및 기능
-                            <p>ReactJs, class component, css, fetch API, ant design, 클라이언트단 검색기능 구현, 단순한 페이지네이션 구현, github(버전관리), 배포 - github page</p>
+                            <p>ReactJs, class component, css, fetch API, ant design, 클라이언트단 검색기능 구현, 단순한 페이지네이션 구현</p>
                         </p>
                         <br />
                         <p class="name"><a href="https://github.com/psw0962/pokemon_react/tree/master/src" target="_blank">▶
@@ -214,7 +148,7 @@
                     <i class="fab fa-react review-icon"></i>
                     <div class="review__speech-bubble">
                         <h3>Todolist with React</h3>
-                        <p>투두리스트 프로젝트를 진행 하면서 React의 글로벌 상태관리 방식에 대해 습득했고, 이를 바탕으로 체계적인 상태관리 기법을 활용할 수 있게 되었습니다.
+                        <p>투두리스트 클론코딩을 진행 하면서 React의 글로벌 상태관리 방식에 대해 습득했고, 이를 바탕으로 체계적인 상태관리 기법을 활용할 수 있게 되었습니다.
                             <br /><br /> # 사용한 기술 및 기능
                             <p>ReactJs, functional component, Hooks, styled components, Context API, 클라이언트단 추가, 삭제, 토글 기능 구현
                             </p>
@@ -229,7 +163,7 @@
                     <i class="fab fa-js-square review-icon"></i>
                     <div class="review__speech-bubble">
                         <h3>Portfolio Web Application</h3>
-                        <p>반응형 웹 페이지 포트폴리오 프로젝트를 진행하면서 붙여넣기는 단 한줄도 하지 않았으며, 웹 페이지 기획부터 마크업, 애니매이션효과, 자바스크립트를 활용한 효과까지 약 6개월간 배운 기술들을 토대로 하나하나 구현 했습니다. 각 section별로, 각 기능별로 버전관리를 하며 프로젝트를 진행했고, 그 과정에서 버전관리의 중요성
+                        <p>반응형 웹 페이지 포트폴리오 프로젝트를 진행하면서 JS, HTML, CSS를 활용하여 웹 페이지 마크업, 스타일링 및 간단한 애니매이션 효과구현 했습니다. 각 section별로, 각 기능별로 버전관리를 하며 프로젝트를 진행했고, 그 과정에서 버전관리의 중요성
                             <br /> 을 알게 되었고 협업시 깃허브 활용을 간접적으로 체험할 수 있었습니다.<br /><br /># 사용한 기술 및 기능
                             <p>Vanilla Javascript, HTML5, CSS</p>
                         </p>
@@ -244,22 +178,18 @@
     <!-- Contact -->
     <section id="contact" class="section">
         <h1 class="contact__title">Contact me</h1>
-        <h2 class="contact__email">Phone: +82 10-9264-0962</h2>
+        <h2 class="contact__email">Phone: 010-9264-0962</h2>
         <h2 class="contact__email">Email: psw92640962@gmail.com</h2>
         <div class="contact__links">
             <a href="https://github.com/psw0962" target="_blank">
                 <i class="fab fa-github"></i>
             </a>
 
-            <a href="https://www.notion.so/a17388a3f5594209894719b7ed770e6f" target="_blank">
+            <a href="https://www.notion.so/TIL-Today-I-Learned-9a6d0beb0c8d4a38a713fe2986775c5a" target="_blank">
                 <i class="fab fa-neos"></i>
             </a>
-
-            <a href="https://velog.io/@psw0962" target="_blank">
-                <i class="fab fa-vimeo-v"></i>
-            </a>
         </div>
-        <p class="contact__right">2020 Nick's portfolio - All rights reserved</p>
+        <p class="contact__right">2021 Nick's portfolio - Nick에 대해 자세히 알고 싶으시다면 노션페이지<b>(위에 N 아이콘)</b>를 방문해 주세요 :)</p>
     </section>
 
     <!-- Arrow up -->
